@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
+				serif: ['Playfair Display', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom Indian-inspired colors
+				india: {
+					saffron: '#FF9933',
+					green: '#138808',
+					blue: '#000080',
+					chakra: '#0000FF',
+					maroon: '#800000',
+					gold: '#D4AF37',
+					spice: '#7B3F00',
+					earth: '#A0522D',
+					silk: '#F0E1C8',
 				}
 			},
 			borderRadius: {
